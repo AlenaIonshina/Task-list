@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  	#DCDCDC;
+    }
+    
+    .todo{
+        width: 300px;
+        height: 500px;
+        background-color: #ffff;
+    }
+    
+    .todo-title {
+        text-align: center;
+    }
+    
+    .todo_input_button {
+        border: 1px solid #808080;
+        display: inline-block;
+        padding: 5px;
+        background-color: #ffff;
+        border-radius: 5px;
+        margin: 0 5px;
+        width: 280px;
+    }
+    
+    .todo_button_add {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+        color: #808080;
+        float: right;
+    }
+    
+    .todo-input {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+        color: #808080;
+    }
+    
+    .todo_task {
+        border: 1px solid #808080;
+        padding: 5px;
+        background-color: #ffff;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    .todo_label {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+    
+    }
+    
+    .todo_button_delete {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+        color: #808080;
+        float: right;
+    }
+    
+    .todo_task_complete{
+        text-decoration: line-through;
+        color: lightslategray;
+    }
+    
+    
+    
+    .todo-title_2 {
+        text-align: center;
+    }
+    
+    .todo_input_button_2 {
+        border: 1px solid #808080;
+        display: inline-block;
+        padding: 5px;
+        background-color: #ffff;
+        border-radius: 5px;
+        margin: 0 5px;
+        width: 280px;
+    }
+    
+    .todo_button_add_2 {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+        color: #808080;
+        float: right;
+    }
+    
+    .todo-input_2 {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+        color: #808080;
+    }
+    
+    .todo_task_2 {
+        border: 1px solid #808080;
+        padding: 5px;
+        background-color: #ffff;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    .todo_label_2 {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+    
+    }
+    
+    .todo_button_delete_2 {
+        background-color: #ffff;
+        border: none;
+        cursor: grab;
+        color: #808080;
+        float: right;
+    }
+    .todo_task_2_complete{
+        text-decoration: line-through;
+        color: lightslategray;

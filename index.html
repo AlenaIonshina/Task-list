@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <p class="todo-title">Высокий приоритет</p>
+      <div class="todo_input_button">
+        <form class="todo_form" action="#" method="post" name="Todo">
+          <input
+            class="todo-input"
+            type="text"
+            placeholder="Добавить важных дел"
+            name="inputName"
+          />
+          <button class="todo_button_add">+</button>
+          <!-- <button type="submit">Кнопка отправки формы</button> -->
+        </form>
+      </div>
+
+      <div id="task_list">
+        <div class="todo_task">
+          <label class="todo_label">
+            <input type="checkbox" data-action="done" />
+            Вот вам и супер интересная тема. Вы наверняка заметили что ваши
+            файлы с кодом становятся все объемнее, что хочется вынести некоторые
+            вещи куда-то за пределы основной программы.
+          </label>
+          <button class="todo_button_delete" data-action="delete">x</button>
+        </div>
+
+        <div class="todo_task">
+          <label class="todo_label">
+            <input type="checkbox" data-action="done" />
+            Сверстать этот TODO list.
+          </label>
+          <button class="todo_button_delete" data-action="delete">x</button>
+        </div>
+
+        <div class="todo_task">
+          <label class="todo_label">
+            <input type="checkbox" data-action="done" />
+            Начать делать задачу.
+          </label>
+          <button class="todo_button_delete" data-action="delete">x</button>
+        </div>
+      </div>
+
+      <p class="todo-title_2">Низкий приоритет</p>
+      <div class="todo_input_button_2">
+        <form class="todo_form_2" action="#" method="post" name="Todo">
+          <input
+            class="todo-input_2"
+            type="text"
+            placeholder="Добавить"
+            name="inputName"
+          />
+          <button class="todo_button_add_2">+</button>
+        </form>
+      </div>
+
+      <div id="task_list_2">
+        <div class="todo_task_2">
+          <label class="todo_label_2">
+            <input type="checkbox" data-action="done" />
+            Посмотреть ютубчик
+          </label>
+          <button class="todo_button_delete_2" data-action="delete">x</button>
+        </div>
+      </div>
+
+      <!-- <p><input checked type="radio" id="contactChoice1"
+    name="contact" value="email">email</p>
+    <p><input type="radio" id="contactChoice2"
+    name="contact" value="phone">phone</p>
+    <p><input type="radio" id="contactChoice3"
+    name="contact" value="mail">mail</p>
+
+    <form name="Form_1">
+    <select multiple name="language" >
+        <option selected value="JS">JavaScript</option>
+        <option selected value="Java">Java</option>
+        <option value="C#">C#</option>
+        <option value="C++">C++</option>
+    </select>
+    </form> -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
